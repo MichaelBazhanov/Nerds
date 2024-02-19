@@ -8,26 +8,29 @@
       content="Магазин готовых шаблонов Nerds по привлекательной цене!"
     />
     <meta name="keywords" content="Nerds лучшее что есть" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Nerds</title>
   </head>
   <body>
     <header class="main-header">
-      <a>
-        <img
-          src="./img/nerds-logo.svg"
-          width="160"
-          height="66"
-          alt="nerds-logo"
-        />
-      </a>
-      <nav class="navigation-header">
-        <ul>
-          <li><a href="blanked.html">Студия</a></li>
-          <li><a href="blanked.html">Клиенты</a></li>
-          <li><a href="catalog.html">Магазин</a></li>
-          <li><a href="blanked.html">Контакты</a></li>
+      <nav class="main-nav">
+        <a href="index.html" class="navigation-logo">
+          <img
+            src="./img/nerds-logo.svg"
+            width="160"
+            height="66"
+            alt="nerds-logo"
+          />
+        </a>
+        <ul class="navigation-list">
+          <li class="navigation-item"><a href="blanked.html">Студия</a></li>
+          <li class="navigation-item"><a href="blanked.html">Клиенты</a></li>
+          <li class="navigation-item"><a href="catalog.html">Магазин</a></li>
+          <li class="navigation-item"><a href="blanked.html">Контакты</a></li>
         </ul>
       </nav>
       <label class="basket">
@@ -37,9 +40,9 @@
     </header>
 
     <main>
-      <h1>Projects Nerds</h1>
+      <h1 class="visually-hidden">Projects Nerds</h1>
       <section>
-        <h2>Слайдер</h2>
+        <h2 class="visually-hidden">Слайдер</h2>
         <p>Долго, дорого, скрупулезно.</p>
         <p>
           Математически выверенный дизайн для вашего сайта или мобильного
@@ -48,9 +51,8 @@
         <a href="blanked.html">УЗНАТЬ БОЛЬШЕ</a>
       </section>
 
-      <section class="achievements">
-        <h2>Достижения</h2>
-        <!-- <h2>Услуги</h2> -->
+      <section class="services">
+        <h2 class="visually-hidden">Услуги</h2>
         <ul>
           <li>
             <img
@@ -95,12 +97,12 @@
           <p>Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
           <p>
             Исповедуем принципы минимализма и чистоты. Ставим математический
-            расчет  превыше креатива. Работаем не покладая рук, как роботы.
+            расчет превыше креатива. Работаем не покладая рук, как роботы.
           </p>
         </article>
       </section>
 
-      <section class="orders">
+      <section class="about-company">
         <h2>О компании</h2>
         <h2>Выполняем заказы на разработку:</h2>
         <ul>
@@ -110,14 +112,14 @@
         </ul>
       </section>
 
-      <section class="accuracy">
+      <section class="about-accuracy">
         <h2>Наша привлекательность</h2>
         <img src="./img/nerds.png" width="360" height="208" alt="Nerds Logo" />
         <p>c 2004 года Любим точность во всем:</p>
         <ul>
           <li>
             <p>146</p>
-            <p>Уровень  самоотдачи</p>
+            <p>Уровень самоотдачи</p>
           </li>
           <li>
             <p>100</p>
@@ -125,14 +127,13 @@
           </li>
           <li>
             <p>50</p>
-            <p>Минимальная  предоплата</p>
+            <p>Минимальная предоплата</p>
           </li>
         </ul>
       </section>
 
       <section class="partners">
         <h2 class="visually-hidden">Партнеры</h2>
-        <!-- <h2>Клиенты</h2> -->
         <img
           src="./img/html-academy.svg"
           width="199"
@@ -176,7 +177,7 @@
         </ul>
       </section>
 
-      <section class="Friendship">
+      <section class="friendship">
         <p>
           Давайте дружить, это выгодно! <br />
           Скидка 10% для друзей из социальных сетей.
